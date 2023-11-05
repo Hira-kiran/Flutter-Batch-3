@@ -33,7 +33,7 @@ class _UsersScreenState extends State<UsersScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Users API"),
+        title: Semantics(label: "sks", child: const Text("Users API")),
       ),
       body: Column(
         children: [

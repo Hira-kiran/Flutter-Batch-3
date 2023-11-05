@@ -30,7 +30,7 @@ class _ProductApiScreenState extends State<ProductApiScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Product Api"),
+        title: Semantics(label: "kkkkkkkkkj", child: const Text("Product Api")),
       ),
       body: FutureBuilder(
           future: productFun(),
